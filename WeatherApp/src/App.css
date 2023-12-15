@@ -1,0 +1,58 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body{
+  background: linear-gradient(#ff0000, rgb(108, 108, 217));
+}
+
+.container{
+  background-image: url(/public/img/bg1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1%;
+  height: 91vh;
+  width: 100%;
+  filter: drop-shadow(10px 10px 20px rgb(31, 31, 29));
+  transition: transform 0.3s ease-in-out;
+}
+.container h1{
+  margin-bottom: 1rem;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+.container h1:hover{
+  color: purple;
+  transform: translate(5px, 5px);
+}
+.input-group-text{
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+.input-group-text:hover{
+  background-color: rgb(55, 0, 255);
+}
+
+.input-group-text{
+  cursor: pointer;
+  outline: none;
+  transition: 0.5s ease-in-out;
+}
+img{
+  width: 3.34rem;
+  height: 3.34rem;
+  border-radius: 50%;
+  margin-left: 1rem;
+}
+h2{
+  color: rgb(253, 253, 250);
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+
